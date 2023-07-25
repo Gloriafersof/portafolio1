@@ -1,0 +1,12 @@
+@import './style.css';
+@import './otro.css';
+@import './about.css';
+@import'./skills.css';
+
+
+
+
+:root{
+
+    --main-color: purple;
+}
