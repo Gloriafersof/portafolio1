@@ -101,3 +101,81 @@
     background: #000000;
     opacity: .8;
   }
+
+
+  .contacto h2{
+    margin-bottom: 3rem;
+  }
+
+  .contacto form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .contacto form .input-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+  }  
+
+  .contacto form .input-box input,
+  .contacto form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+  
+    color: #fff ;
+    background: rgb(72, 67, 67) ;
+    border-radius: .8rem ;
+    margin: .7rem 0;
+  }
+
+
+  .btn{
+    color: #000000;
+  }
+
+
+  .contacto form .input-box input{
+    width: 49%;
+  }
+
+  .contacto form textarea{
+    resize: none;
+  }
+
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: wrap;
+    padding: 2rem 9%;
+    background: #2d2b2b;
+  }
+
+
+  .footer-text{
+    font-size: 1.6rem;
+  }
+
+  .footer-iconTop a {
+    display: inline-flex;
+    justify-content: center ;
+    align-items: center;
+    padding: .8rem;
+    border-radius: .8rem;
+    transition: .5 ease;
+  }
+
+
+  .footer-iconTop a:hover{
+box-shadow: 0 0 1rem ;
+  }
+
+
+  .footer-iconTop a i{
+    font-size: 2.4rem;
+
+  }
